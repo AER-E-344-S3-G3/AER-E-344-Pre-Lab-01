@@ -5,22 +5,44 @@
 \begin{importantbox}
 You should review and understand the concepts of Euler Approach and Lagrangian Approach to describe the motion of the fluid flow.
 \end{importantbox}
-\noindent{}This is the answer.
+
+The Euler and Lagrangian approach are both mathematical methods used to describe motion. Their primary distinction is the point of observation.
+
+In the Lagrangian approach, the observer follows a fluid element (or parcel). It is the most natural approach when dealing with solid objects we encounter in day-to-day life, \textit{e.g.}, throwing a baseball. The Lagrangian approach describes the motion of the baseball in terms of time and its height, for example.
+
+In the Eulerian approach to fluid mechanics, the observer is fixed, and fluid motion is described by its relative position to the observer and time. This is more awkward when describing the motion of objects moving through space—like the baseball—but natural when considering fluid elements moving through a flow field.
+
+In practice, most fluid mechanic experiments rely on Eulerian formulas, however, the derivation of many fluid mechanic concepts comes from a mixture of the Lagrangian and Eulerian approaches.
 
 \section{Question 2}
 \begin{importantbox}
 You should review and understand the concepts of path lines, streak lines, and streamlines.
 \end{importantbox}
-\noindent{}This is the answer.
+
+Under steady state flow conditions, pathlines, streaklines, and streamlines will all coincide. Under non-steady state flow, the flow field changes and the different lines may diverge.
+
+Pathlines are show the location over time of a specific object or fluid element as it moves through a flow field. One way to capture that path of this specific particle would be to capture a picture using a long-exposure.
+
+Streaklines show the position of all particles that have passed the same point in space. To demonstrate a streakline over an airfoil, one might release smoke for an extended duration from a single point—never moving the source location of the smoke.
+
+Streamlines are defined as being a continuous curve tangent to the flow field at any given time or position in the field. Unlike the pathlines and streaklines, streamlines are theoretical by nature and only match the pathlines or streaklines in steady state flow conditions. A streamline would show the path a particle on the streamline would travel if the flow field remained static.
 
 \section{Question 3}
 \begin{importantbox}
 You should understand the differences and connections between the concepts of path lines, streak lines, and streamlines.
 \end{importantbox}
-\noindent{}This is the answer.
+
+As described in Question 2, pathlines, streaklines, and streamlines will only coincide under steady state flow conditions. Streamlines are theoretical and mathematically rigorous whereas pathlines and streaklines can be found experimentally. Streamlines show the current state of a flow field and can predict where a particle will go under the current conditions. On the contrary, pathlines and streaklines are historical, showing where a particle or series of particles are or have been.
 
 \section{Question 4}
 \begin{importantbox}
 You should understand the concepts of blunt body, streamlined objects, angle of attack, attached flow, flow separation, airfoil stall, and wingtip vortex.
 \end{importantbox}
-\noindent{}This is the answer.
+
+Blunt and streamlined are terms used to describe the geometry of objects and how they interactive with fluid passing over them. A streamlined body is defined as an object where the primary source of drag is the surface friction of the fluid passing over it. A blunt (or bluff) body is defined as an object where the primary source of drag is from pressure do to the flow stagnating upon contact with the body. A race car or submarine are examples of streamlined bodies whereas a house or a tree trunk may be considered blunt bodies.
+
+As fluid moves over a streamlined body, it is classified as either laminar or turbulent. Laminar (or attached) flow follows the curvature of the body its moving over. Turbulent (or separated) flow detaches from the body and forms eddies and vortices. In both types of flow, the velocity of a fluid element at the surface of the body is \num{0}. In turbulent flow, however, the friction at the surface of the body—due to the viscosity of the fluid—becomes so great that the flow at the surface of the body stagnates and begins move in the opposite direction creating the turbulent effects.
+
+The angle of attack of an airfoil or wing is typically defined as the angle between the flow direction and the chord line of the airfoil or wing. With a typical  wing, as the angle of attack increases, lift increases, accompanied by an increase in flow separation at the trailing edge of the airfoil or wing. In low angles of attack, the lift generation far exceeds any additional pressure drag due to flow separation. At a very high angle of attack (the critical angle of attack), the pressure drag due to flow separation on the wing exceeds the lift generated by the wing and lift begins to decreases. This scenario is known as stalling: where increasing the angle of attack leads to diminishing lift and increased drag.
+
+Wingtip vortices are necessary side effects to generating lift with a 3D wing. Variance in the lift generated span-wise along a wing results in vortices that culminate near the wing tips. These vortices—although undoubtedly cool looking—contribute to downwash, a part of the induced drag on a wing which increases drag.
